@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivinhe o Número</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body onload="gerarNumero()">
+    <div class="centered">
+      <h1>Adivinhe o Número</h1>
+      <div>
+        <input
+          type="number"
+          name="guess_input"
+          id="guess_input"
+          placeholder="Escreva seu chute"
+        />
+        <button id="chutar_btn" onclick="chutar()">Chutar</button>
+      </div>
+      <p id="indice"></p>
+      <button id="restart" style="display: none" onclick="reiniciar()">
+        Reiniciar
+      </button>
+    </div>
+  </body>
+</html>

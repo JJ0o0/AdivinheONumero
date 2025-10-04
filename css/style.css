@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+
+body {
+  font-family: "Roboto Flex", sans-serif;
+
+  text-align: center;
+}
+
+h1 {
+  border: solid 2px lightgrey;
+  border-radius: 20px;
+
+  padding: 15px;
+}
+
+button {
+  height: 25px;
+  background-color: transparent;
+
+  border: solid 2px gray;
+  border-radius: 6px;
+}
+
+input[type="number"] {
+  border: solid 2px gainsboro;
+  border-radius: 4px;
+
+  padding: 4px 5px 4px 5px;
+
+  appearance: textfield;
+
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: gray;
+  outline: none;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
